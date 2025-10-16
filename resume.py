@@ -84,3 +84,4 @@ if uploaded_file is not None:
         predicted_category = classify_resume(temp_file_path, model, clf)
 
     st.success(f"Predicted Resume Category: **{predicted_category}**")
+
